@@ -28,6 +28,6 @@ kubectl wait --namespace ingress-nginx \
   --timeout=180s
 
 echo "[+] Applying Ingress resource..."
-kubectl apply -f .infrastructure/ingress/ingress.yml
+kubectl apply -f .infrastructure/ingress/ingress.yaml
 
 echo "[✓] All resources deployed. App should be available at: http://localhost"

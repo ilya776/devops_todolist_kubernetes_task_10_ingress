@@ -11,7 +11,7 @@ spec:
       http:
         paths:
           - pathType: Prefix
-            path: "/(?<your_regex>.*)"
+            path: /
             backend:
               service:
                 name: todoapp
